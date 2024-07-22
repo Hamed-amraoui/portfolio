@@ -15,7 +15,7 @@ const About = () =>{
               url='https://fst.rnu.tn/fr' 
               dateStart='SEP 2023' 
               dateEnd='PRESENT' 
-              description={'A Fullstack MERN position involves developing web applications using MongoDB, Express.js, React.js, Next.js and Node.js, covering both frontend and backend tasks.'} 
+              description={'A Master\'s Degree in Computer Science is a two-year undergraduate program that teaches students computer programming, software development, and problem-solving skills, preparing them for careers in IT, software development, and related fields.'} 
           />
           <Stage 
               organisation='Faculty of sciences of Tunis' 
@@ -30,8 +30,17 @@ const About = () =>{
         <div className="experience">
           <h3 className='title3'>Work Experience :</h3>
           <Stage 
+              organisation='Experts Decision (EXD)' 
+              post='Fullstack JavaScript Developer' 
+              src='./exd_experts_decision.jpg' 
+              url='https://exd-int.com/' 
+              dateStart='MAR 2024' 
+              dateEnd='PRESENT' 
+              description={'A Fullstack MERN position involves developing web applications using MongoDB, Express.js, React.js, and Node.js, covering both frontend and backend tasks.'} 
+          />
+          <Stage 
               organisation='Spotlight Events' 
-              post='Intern Web Developer' 
+              post='Fullstack JavaScript Developer' 
               src='./spotlighevents.png' 
               url='https://spotlight.tn/' 
               dateStart='FEB 2023' 
@@ -40,7 +49,7 @@ const About = () =>{
           />
           <Stage 
               organisation='Coworky' 
-              post='Intern Fullstack Developer' 
+              post='Intern Fullstack Mobile Developer' 
               src='./coworky.png' 
               url='https://www.coworky.org/' 
               dateStart='AUG 2022' 
@@ -87,9 +96,6 @@ const About = () =>{
             </li>
             <li>
               <img src="./Next.js.png" alt="Next.js" />
-            </li>
-            <li>
-              <img src="./golang.png" alt="golang" />
             </li>
             <li>
               <img src="./github.png" alt="github" />
